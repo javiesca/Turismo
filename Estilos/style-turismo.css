@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    background-color: #caecf8;
+}
+
+.cabecera-turismo{
+    width: 100%;
+    height: 500px;
+    background: linear-gradient(120deg, rgba(161, 196, 253, 0.396) 0%, rgba(194, 233, 251, 0.349) 100%), url(/Imagenes/Ribadesella.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 0px -500px;
+    position: relative;
+}
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+a{
+    color: rgb(33, 65, 14);
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: rgb(121, 11, 11);
+}
+
+.menu-turismo{
+    text-align: right;
+    padding: 50px 50px 0 0;
+}
+
+h1{
+    display: flex;
+    height: 300px;
+    font-size: 100px;
+    align-items: center;
+    justify-content: center;
+    color: rgb(33, 65, 14);
+}
+
+.contenedor{
+    padding: 30px 30px;
+    width: 90%;
+    max-width:100%;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    justify-content: space-around;
+}
+
+.imagen{
+    width: 50%;
+    text-align: center;
+}
+
+.textos{
+    text-align: center;
+    width: 50%;
+}
+
+img {
+    background-attachment: fixed;
+    max-width: 75%;
+    border-radius: 60px;
+}
+
+.texto-imagen{
+    font-style: oblique;
+    font-size: 15px;
+}
+
+.lista{
+    text-align: left;
+    color: rgb(85, 128, 106);
+}
+
+.lista li{
+    padding-bottom: 10px;
+}
+
+ul h2{
+    margin-bottom: 20px;
+}
+
+.textos-final{
+    margin: auto;
+    width: 90%;
+    align-items:center;
+    margin-bottom: 50px;
+    text-align: center;
+    font-style: oblique;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+span{
+    font-size: 40px;
+    color: green;
+    font-weight: bold;
+    
+}
+
+.pie-pagina{
+    padding: 20px 50px 0 0;
+    text-align: end;
+    font-size: 16px;
+    font-style: oblique;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+
+

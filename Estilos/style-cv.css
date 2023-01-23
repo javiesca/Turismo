@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    background-color: rgb(202, 236, 248);
+}
+
+.cabecera-cv{
+    width: 100%;
+    height: 500px;
+    background: linear-gradient(120deg, rgba(161, 196, 253, 0.396) 0%, rgba(194, 233, 251, 0.349) 100%), url(../Imagenes/portada.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+a{
+    color: rgb(33, 65, 14);
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: rgb(121, 11, 11);
+}
+
+h1{
+    display: flex;
+    height: 300px;
+    font-size: 100px;
+    align-items: center;
+    justify-content: center;
+    color: rgb(33, 65, 14);
+
+}
+
+.contenedor{
+    padding: 30px 30px;
+    width: 90%;
+    max-width:100%;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    justify-content: space-around;
+}
+
+.texto{
+    text-align: center;
+    width: 60%;
+    
+}
+
+.texto .ir-inicio{
+    margin-top: 30px;
+    text-align: center;
+}
+
+img {
+    background-attachment: fixed;
+    width:80%;
+    max-height: 400px;
+    border-radius: 60px;
+}
+
+.imagen{
+    width: 40%;
+    text-align: center;
+}
+
+.titulo{
+    color: rgb(33, 65, 14);
+    font-size: 50px;
+    text-align: center;
+  
+}
+
+.menu-cv{
+    text-align: right;
+    padding: 50px 50px 0 0;
+}
+
+.pie-pagina{
+    padding: 20px 50px 0 0;
+    text-align: end;
+    font-size: 16px;
+    font-style: oblique;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+span{
+    font-size: 50px;
+    color: green;
+}
+
+
+
+
+
+
+
